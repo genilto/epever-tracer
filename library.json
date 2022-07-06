@@ -15,7 +15,7 @@
             "maintainer": true
         }
     ],
-    "license": "GNU",
+    "license": "GPL-3.0",
     "exclude": "tests",
     "examples": "examples/*/*.cpp",
     "frameworks": "arduino",
