@@ -1,4 +1,4 @@
-#include <Timer.h>
+#include <SimpleTimer.h>
 #include <ModbusMaster.h>
 #include "TracerData.h"
 
@@ -9,7 +9,7 @@ class EpeverTracer
 {
 private:
     ModbusMaster _node;
-    Timer _timer;
+    SimpleTimer _timer;
     TracerData _data;
     uint8_t _result;
 

@@ -1,6 +1,6 @@
 {
     "name": "EpeverTracer",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "keywords": "epever, tracer, rs485, modbus",
     "description": "Enables communication with Epever Tracer charge controller via Modbus slaves over RS485. Requires an RS485 transceiver.",
     "repository": {
@@ -20,6 +20,7 @@
     "examples": "examples/*/*.cpp",
     "frameworks": "arduino",
     "dependencies": {
+        "genilto/SimpleTimer": "^0.0.1",
         "4-20ma/ModbusMaster": "~2.0.1"
     },
     "platforms": [
