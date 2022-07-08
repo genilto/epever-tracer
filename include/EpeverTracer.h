@@ -13,7 +13,7 @@ private:
     TracerData _data;
     uint8_t _result;
 
-    int _delayTime = 2000;
+    int _delayTime = 2000; // Must read each 2 seconds
 
     void AddressRegistry_2000();
     void AddressRegistry_200C();

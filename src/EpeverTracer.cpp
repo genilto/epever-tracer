@@ -7,11 +7,11 @@ EpeverTracer::EpeverTracer()
 }
 void EpeverTracer::begin()
 {
+    Serial.begin(115200);
     this->_node.begin(1, Serial);
+    
     //this->_node.preTransmission([]() {});
     //this->_node.postTransmission([]() {});
-
-    // Read the static information from Tracer
 }
 bool EpeverTracer::update()
 {
