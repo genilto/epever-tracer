@@ -1,5 +1,4 @@
 #include <Arduino.h>
-#include "TracerData.h"
 #include "EpeverTracer.h"
 
 EpeverTracer tracer;
