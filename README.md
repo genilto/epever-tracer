@@ -1,5 +1,22 @@
 # epever-tracer
+
 Enables communication with Epever Tracer charge controller via Modbus slaves over RS485. Requires an RS485 transceiver.
+
+# Wiring
+
+The connections should be made like below:
+
+![Wiring](/assets/Imagem_Esquematica.jpg "Wiring")
+
+It's important to disconnect tx and rx pins from nodemcu before upload the firmware to it.
+
+It's a good idea implement OTA updates for the next updates of the firmware, so you don't need to keep disconnecting all the times you want to upload a new firmware.
+
+# Tracer Manual
+
+Below is the Manual of Epever Tracer Modbus protocol.
+
+![Tracer](/assets/ControllerProtocolV2.3.pdf "Tracer")
 
 # Special thank you
 
