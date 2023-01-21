@@ -16,7 +16,7 @@ It's a good idea implement OTA updates for the next updates of the firmware, so 
 
 Below is the Manual of Epever Tracer Modbus protocol.
 
-![Tracer](/assets/ControllerProtocolV2.3.pdf "Tracer")
+[embed](/assets/ControllerProtocolV2.3.pdf)[/embed] 
 
 # Special thank you
 
