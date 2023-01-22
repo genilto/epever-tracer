@@ -1,6 +1,6 @@
 {
     "name": "EpeverTracer",
-    "version": "0.0.4",
+    "version": "0.0.6",
     "keywords": "epever, tracer, rs485, modbus",
     "description": "Enables communication with Epever Tracer charge controller via Modbus slaves over RS485. Requires an RS485 transceiver.",
     "repository": {

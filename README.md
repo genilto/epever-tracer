@@ -6,7 +6,7 @@ Enables communication with Epever Tracer charge controller via Modbus slaves ove
 
 The connections should be made like below:
 
-![Wiring](/assets/Imagem_Esquematica.jpg "Wiring")
+![Wiring](https://github.com/genilto/epever-tracer/raw/main/assets/Imagem_Esquematica.jpg "Wiring")
 
 It's important to disconnect tx and rx pins from nodemcu before upload the firmware to it.
 
@@ -16,7 +16,7 @@ It's a good idea implement OTA updates for the next updates of the firmware, so 
 
 Below is the Manual of Epever Tracer Modbus protocol.
 
-[Click to open the manual](/assets/ControllerProtocolV2.3.pdf)
+[Click to open the manual](https://github.com/genilto/epever-tracer/blob/main/assets/ControllerProtocolV2.3.pdf)
 
 # Special thank you
 
